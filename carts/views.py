@@ -1,11 +1,3 @@
-# 
-# 视图函数是Django框架中用于处理HTTP请求并返回HTTP响应的一种函数。
-# 在Django框架中，视图函数是一个Python函数，它接收一个HttpRequest对象作为参数，
-# 并返回一个HttpResponse对象。
-# 当用户访问网站时，浏览器会向服务器发送HTTP请求，
-# 在服务器端，Django会根据URL配置找到对应的视图函数来处理这个请求，并将结果封装成HttpResponse对象返回给浏览器。
-# 因此，可以说视图函数是实现Web页面逻辑的核心部分。
-# 在编写视图函数时，我们可以通过模板引擎、数据库等方式获取数据并渲染HTML页面或者其他格式的响应内容。
 
 from django.shortcuts import render, redirect
 from store.models import Product
